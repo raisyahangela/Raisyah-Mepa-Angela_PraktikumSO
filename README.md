@@ -94,4 +94,3 @@ Instalasi Linux Mint di VirtualBox melibatkan persiapan mesin virtual, konfigura
 
 ---
 
-Untuk informasi lebih lanjut, kunjungi [website resmi Linux Mint](https://linuxmint.com/).

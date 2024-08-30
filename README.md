@@ -24,6 +24,8 @@ VirtualBox adalah perangkat lunak virtualisasi yang memungkinkan pengguna menjal
 5. Lakukan instalasi
 
 ![Download VirtualBox](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/1a.png)
+![Download VirtualBox](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/2a.png)
+![Download VirtualBox](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/3a.png)
 ![VirtualBox Installation](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/4a.png)
 
 ## Download Linux Mint

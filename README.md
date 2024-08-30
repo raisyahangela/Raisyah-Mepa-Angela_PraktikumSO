@@ -1,58 +1,75 @@
-# Instalasi Linux Mint di VirtualBox
+# Panduan Download dan Instalasi Linux Mint di VirtualBox
 
-Oleh: RAISYAH MEPA ANGELA
-NIM: 09011282328033
-Kelas: SK3C
-Mata Kuliah: SISTEM OPERASI
+Oleh: RAISYAH MEPA ANGELA  
+NIM: 09011282328033  
+Kelas: SK3C  
+Mata Kuliah: SISTEM OPERASI  
 
 ## Daftar Isi
-1. [Persiapan Awal](#persiapan-awal)
-2. [Boot dan Instalasi Linux Mint](#boot-dan-instalasi-linux-mint)
-3. [Selesai dan Reboot](#selesai-dan-reboot)
+1. [Download VirtualBox](#download-virtualbox)
+2. [Download Linux Mint](#download-linux-mint)
+3. [Instalasi Linux Mint di VirtualBox](#instalasi-linux-mint-di-virtualbox)
 4. [Pentingnya Mount Point "/"](#pentingnya-mount-point-)
 5. [Penjelasan Sistem File](#penjelasan-sistem-file)
 
-## Persiapan Awal
+## Download VirtualBox
 
-### 1.1 Download Linux Mint
-- Unduh ISO Linux Mint dari [website resmi](https://linuxmint.com/download.php)
-- ![Download Linux Mint](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/1.png)
+VirtualBox adalah perangkat lunak virtualisasi yang memungkinkan pengguna menjalankan sistem operasi sekunder di dalam jendela pada sistem operasi utama.
 
-### 1.2 Buat Mesin Virtual di VirtualBox
-- Buka VirtualBox dan klik "New"
-- Isi nama, tipe sistem operasi (Linux), dan versi (Ubuntu 64-bit)
-- ![Buat Mesin Virtual](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/2.png)
+### Langkah-langkah:
+1. Kunjungi [situs web resmi Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+2. Pilih platform yang sesuai (Windows, macOS, Linux)
+3. Klik tombol "Download VirtualBox"
+4. Pilih lokasi penyimpanan file EXE atau DMG yang diunduh
+5. Lakukan instalasi
 
-### 1.3 Atur Memori dan Hard Disk
+![Download VirtualBox](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/1a.png)
+![VirtualBox Installation](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/4a.png)
+
+## Download Linux Mint
+
+Linux Mint adalah distribusi Linux yang dirancang untuk menjadi ramah pengguna dan mudah diakses, bahkan bagi pengguna baru.
+
+### Langkah-langkah:
+1. Akses [situs web resmi Linux Mint](https://linuxmint.com/)
+2. Pilih versi yang diinginkan (Cinnamon, MATE, Xfce) dan arsitektur sistem (32-bit atau 64-bit)
+3. Klik tombol "Download" untuk memulai proses pengunduhan
+4. Pilih lokasi penyimpanan file ISO yang diunduh
+
+![Download Linux Mint](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/5a.png)
+
+## Instalasi Linux Mint di VirtualBox
+
+### 1. Persiapan Awal
+- Buka VirtualBox dan klik "New" untuk membuat mesin virtual baru
+- Isi nama, tipe sistem operasi, dan versi sesuai dengan Linux Mint
+
+![Create Virtual Machine](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/2.png)
+
+### 2. Atur Memori dan Hard Disk
 - Pilih ukuran memori RAM (misalnya, 2048 MB)
 - Buat hard disk virtual (VDI) dengan ukuran sekitar 20 GB
-- ![Atur Memori dan Hard Disk](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/3.png)
 
-### 1.4 Pasang ISO ke Mesin Virtual
+![Set Memory and Hard Disk](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/3.png)
+
+### 3. Pasang ISO ke Mesin Virtual
 - Pilih mesin virtual yang telah dibuat dan klik "Settings"
 - Di tab "Storage", pilih file ISO Linux Mint yang diunduh
-- ![Pasang ISO](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/4.png)
 
-## Boot dan Instalasi Linux Mint
+![Attach ISO](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/4.png)
 
-### 2.1 Mulai Mesin Virtual
+### 4. Boot dan Instalasi Linux Mint
 - Klik "Start" untuk memulai mesin virtual
-- ![Mulai Mesin Virtual](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/5.png)
+- Pilih "Start Linux Mint" dari opsi boot
+- Ikuti wizard instalasi: pilih bahasa, tata letak keyboard, jenis instalasi, zona waktu, dan buat akun pengguna
 
-### 2.2 - 2.8 Proses Instalasi
-- Pilih bahasa, tata letak keyboard, dan jenis instalasi
-- Atur zona waktu, nama pengguna, password, dan nama komputer
-- Tunggu proses instalasi selesai
+![Start Installation](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/5.png)
 
-## Selesai dan Reboot
-
-### 3.1 Restart Mesin Virtual
+### 5. Selesai dan Reboot
 - Setelah instalasi selesai, klik "Restart Now"
-- Lepaskan ISO dari mesin virtual ketika diminta
+- Login menggunakan nama pengguna dan password yang telah dibuat
 
-### 3.2 Login ke Linux Mint
-- Setelah reboot, login menggunakan nama pengguna dan password yang telah dibuat
-- ![Login Linux Mint](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/6.png)
+![Linux Mint Desktop](https://github.com/raisyahangela/Raisyah-Mepa-Angela_PraktikumSO/blob/main/6.png)
 
 ## Pentingnya Mount Point "/"
 
@@ -90,7 +107,7 @@ Mata Kuliah: SISTEM OPERASI
 
 ## Kesimpulan
 
-Instalasi Linux Mint di VirtualBox melibatkan persiapan mesin virtual, konfigurasi, dan proses instalasi. Pemilihan mount point "/" sangat penting untuk memastikan sistem operasi berfungsi dengan baik.
+Proses download dan instalasi Linux Mint di VirtualBox melibatkan beberapa langkah, mulai dari pengunduhan software yang diperlukan hingga konfigurasi dan instalasi sistem operasi di lingkungan virtual. Pemahaman tentang mount point "/" dan berbagai sistem file sangat penting untuk instalasi dan penggunaan Linux yang efektif.
 
 ---
 
